@@ -1,0 +1,38 @@
+.jwt-token-details {
+    text-align: left;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10%;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.col-35 {
+    width: 35%;
+    float: left;
+    font-weight: bold;
+}
+
+.col-65 {
+    width: 65%;
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.functional-buttons {
+    margin: 10px;
+}

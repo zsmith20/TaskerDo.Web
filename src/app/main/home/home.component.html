@@ -1,0 +1,36 @@
+<div class="wrapper">
+    <div style="display: flex; justify-content:end; padding:5px">
+        <button mat-flat-button style="width: 150px; margin-left:10px; margin-right: 10px;" color="primary" (click)="logout()">
+            <span>Logout</span>
+        </button>
+    </div>
+    <div class="container">
+        <h1>Successfully Signed In!</h1>
+        <div class="jwt-token-details">
+            <div class="row">
+                <div class="col-35">First Name:</div>
+                <div class="col-65">{{JwtTokenDetails?.FirstName}}</div>
+            </div>
+            <div class="row">
+                <div class="col-35">Last Name:</div>
+                <div class="col-65">{{JwtTokenDetails?.LastName}}</div>
+            </div>
+            <div class="row">
+                <div class="col-35">Email:</div>
+                <div class="col-65">{{JwtTokenDetails?.Email}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="functional-buttons">
+        <button mat-flat-button style="width: 150px; margin-left:10px; margin-right: 10px;" color="primary"
+            (click)="getData()">
+            <span>Get Data</span>
+        </button>
+        <div *ngIf="Data">
+            <span><b>Data:</b></span>
+            <pre>
+                {{Data | json}}
+            </pre>
+        </div>
+    </div>
+</div>
