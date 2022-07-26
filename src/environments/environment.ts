@@ -2,6 +2,6 @@ export const environment = {
   production: false,
   ENVIRONMENT: 'LOCAL',
   api: {
-    app: 'https://localhost:44308/api',
+    app: 'https://taskerdo-api.azurewebsites.net/api',
   },
 }; 
