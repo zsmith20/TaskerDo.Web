@@ -1,5 +1,0 @@
-{
-    "appService.showBuildDuringDeployPrompt": false,
-    "appService.defaultWebAppToDeploy": "/subscriptions/eb253c98-2ed9-4655-b93c-c090f8dae57f/microsoft.web/sites/subscriptions/eb253c98-2ed9-4655-b93c-c090f8dae57f/resourceGroups/TaskerDo-Web_group/providers/Microsoft.Web/sites/TaskerDo-Web",
-    "appService.deploySubpath": "dist\\TaskerDo"
-}
